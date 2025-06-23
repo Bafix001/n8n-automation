@@ -3,8 +3,8 @@ builder = "dockerfile"
 
 [deploy]
 restartPolicyType = "always"
-healthcheckPath = "/healthz"
-healthcheckTimeout = 100
+healthcheckPath = "/"
+healthcheckTimeout = 300
 
 [env]
 NODE_ENV = "production"
